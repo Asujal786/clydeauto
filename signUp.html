@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<title> Clyde Auto Repair</title>
+
+<head>
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Home" content="Home">
+    <link rel="stylesheet" src="ss.css" href="ss.css">
+    <link rel="website icon" href="newlogo (1).jpg" type="jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha3104-GLhlTQ10iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-primary" data-bs-theme="dark">
+    <div class="container-fluid mx-4">
+        <a class="navbar-brand center" href="kkk - Copy.html"> <STRONG>Clyde Auto Mechanic</STRONG></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-4" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="kkk - Copy.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About US</a>
+                </li>
+            </ul>
+        </div>
+        <div class="float">
+            <button class="btn btn-outline-primary mx-2">Login</button>
+            <button class="btn btn-outline-primary mx-2">Book Service ➤</button>
+        </div>
+    </div>
+</nav>
+<!-- Navigation Bar Ends here  -->
+<!--Form Starts here -->
+<div class="content my-5 br">
+    <h3>Registration Form </h3>
+    <br>
+    <p style="color:orange; font-size: 18px;"> Fields which have * are required to be filled out</p>
+
+<div class="cont my-5">
+
+  <form id="found">
+    <div class="form-row">
+      <div class="form-group  my-2 col-md-12">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" required placeholder="Email">
+      </div>
+      <div class="form-group  my-2 col-md-12">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4"  required placeholder="Password">
+      </div>
+      <div class="alert"> <p class="red" id="alert"> ⚠️Invalid Username or Password</p></div>
+    </div>
+   
+    <button type="submit" href="kkk - Copy.html"id="loginsubmit" class="btn btn-primary my-2">Login</button>
+  </form>
+
+
+    <form id="notfound">
+      
+        <div class="form-row inline">
+          <div class="form-group inline  my-2 col-md-10">
+            <label for="inputEmail4">Email*</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+          </div>
+          <div class="form-group  inline my-2 col-md-10">
+            <label for="inputPassword4">Password*</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password"  required>
+          </div>
+        </div>
+        <div class="form-group my-2  col-md-10">
+          <label for="inputAddress">Address*</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+        <div class="form-group  my-2 col-md-10">
+          <label for="inputAddress2">Address 2*</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+          <label for="inputAddress2">Suburb</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Mascot" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group  my-2 col-md-10">
+            <label for="inputCity">City*</label>
+            <input type="text" class="form-control" id="inputCity" required>
+          </div>
+          <div class="form-group  my-2 col-md-4">
+            <label for="inputState">State*</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>NSW</option>
+              <option>VIC</option>
+              <option>NT</option>
+              <option>TAS</option>
+              <option>QLD</option>
+              <option>WA</option>
+            </select>
+          </div>
+          <div class="form-group my-2  col-md-2">
+            <label for="inputZip">Zip*</label>
+            <input type="text" class="form-control" id="inputZip" required>
+          </div>
+        </div>
+        <br>
+        <div class="form-check my-2">
+            <input class="form-check-input" type="checkbox" value="" id="termscheckbox" required>
+            <label class="form-check-label" for="defaultCheck1">
+              By clicking this, I agree to <span style="color:blue;"> Terms and Conditions</span>
+              <p id="alerttc"> ⚠️ Please agree to Terms and Conditions before proceeding</p>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="emailid">
+            <label class="form-check-label" for="defaultCheck1">
+              Please send me offers and promotions to my email address
+            </label>
+          </div>
+         
+        <button type="submit" id="signupsubmit" class="btn btn-primary my-2">Sign Up</button>
+       <a href="login.html"><p class="mx-4 " id="alreadyexist">Already a user? Click here</p></a>
+      </form>
+
+</div>
+</div>
+  <!--Form Ends here -->
+
+
+
+
+
+
+<!--JavsScript Files-->
+<script src="https://kit.fontawesome.com/44b6fb6103f.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha3104-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+<!--Body Ends here -->
+<!--Footer Starts Here -->
+<footer>
+  <div class="ft"> <p style="font-size: 18px;">&copy; 2023 Clyde Auto Mechanic. All rights reserved.</p>
+  </div>
+</footer>
